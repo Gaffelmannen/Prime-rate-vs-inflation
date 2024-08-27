@@ -1,0 +1,13 @@
+build/
+dist/
+__pycache__
+
+.DS_Store
+
+interest.pyc
+interest.spec
+interest.log
+
+*.jpg
+*.jpeg
+*.png
