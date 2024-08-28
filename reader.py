@@ -27,26 +27,6 @@ class InterestRateReader:
         return text
 
     def _get_interest_rates(self):
-        #url = "https://api.riksbank.se/swestr/v1/SWESTR?fromDate={}".format(
-        #    "2024-01-01T15:00:00Z"
-        #)
-
-        #url = "https://api.riksbank.se/swestr/v1/index/{}?fromDate={}".format(
-        #    "SWESTRINDEX",
-        #    "2024-01-01T15:00:00Z"
-        #)
-
-        #url = "https://api.riksbank.se/swestr/v1/{}?fromDate={}".format(
-        #    "SWESTR",
-        #    "2024-01-01T15:00:00Z"
-        #)
-
-        #url = "https://api.riksbank.se/monetary_policy_data/v1/forecasts"
-
-        #url = "https://api.riksbank.se/monetary_policy_data/v1/forecasts/policy_rounds"
-
-        #url = "https://api.riksbank.se/swea/v1/Series"
-
         url = "https://api.riksbank.se/swea/v1/Observations/{}/{}".format(
             "SECBREPOEFF",
             "1994-06-01"

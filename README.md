@@ -21,8 +21,16 @@ Please make sure to update tests as appropriate.
 
 
 ## Foundations of data
+
+### Prime rate data
+The prime rate data is provided by Riksbanken.
+
 All info retrieved from:
 https://developer.api.riksbank.se/api-details#api=swea-api&operation=get-observationaggregates-seriesid-aggregation-from
 
 Read more here:
 https://www.riksbank.se/sv/statistik/rantor-och-valutakurser/hamta-rantor-och-valutakurser-via-api/serier-for-apiet/
+
+
+### The inflation data
+Is provided by SCB. Read more at scb.se

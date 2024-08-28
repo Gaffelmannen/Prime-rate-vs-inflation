@@ -108,3 +108,4 @@ class Plotter():
 
         filename = "./output/rate_vs_inflation-{}.png".format(datetime.now().strftime("%Y-%m-%d"))
         plt.savefig(filename, bbox_inches="tight")
+        print("File: {} created.".format(filename))
